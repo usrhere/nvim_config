@@ -1,6 +1,7 @@
 lua require('plugins')
 lua require('autocomplete')
 lua require('treesitter')
+lua require('lsp_keybindings')
 
 " Remap ESC to jk
 inoremap jk <esc>
