@@ -2,6 +2,7 @@ lua require('plugins')
 lua require('autocomplete')
 lua require('treesitter')
 lua require('lsp_keybindings')
+lua require('lsp_diagnostics')
 
 " Remap ESC to jk
 inoremap jk <esc>
@@ -23,11 +24,7 @@ set laststatus=2
 set relativenumber
 
 "" Colors
-"colorscheme ron
-"" Make matching brackets more visible
-"hi MatchParen cterm=bold ctermbg=black ctermfg=red
-"" Make error messages more readable
-"hi FgCocErrorFloatBgCocFloating ctermfg=black
+hi Pmenu ctermfg=Black ctermbg=LightYellow
 
 " Highlight all matching search results
 set hlsearch
