@@ -20,8 +20,8 @@ set smartindent
 set statusline+=%F
 set laststatus=2
 
-" Show relative line numbers
-set relativenumber
+" Show 'hybrid' line numbers
+set nu rnu
 
 "" Colors
 hi Pmenu ctermfg=Black ctermbg=LightYellow
